@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Sécurité : Content Security Policy stricte (aucun script inline, aucune origine tierce hors Google Fonts) -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <meta name="description" content="Manal Maazouzi — Acheteuse Indirect Corporate chez Crédit Agricole Personal Finance & Mobility. Double compétence Achats & Systèmes d'Information, Grenoble École de Management. Disponible CDI septembre 2026.">
+  <meta name="theme-color" content="#03241B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Manal Maazouzi — Acheteuse Indirect Corporate">
+  <meta property="og:description" content="Achats & Systèmes d'Information · Crédit Agricole PF&M · Grenoble École de Management. Disponible CDI septembre 2026.">
+
+  <title>Manal Maazouzi — Acheteuse Indirect Corporate · Portfolio</title>
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23006F4E'/%3E%3Cpath d='M18 44V20h7l7 12 7-12h7v24h-7V32l-7 11-7-11v12z' fill='%23EAF7F0'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Figtree:ital,wght@0,300..700;1,400&family=Fragment+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=6">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#profil">Aller au contenu</a>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" aria-label="Navigation principale">
+    <div class="nav-inner">
+      <a href="#accueil" class="brand">Manal&nbsp;Maazouzi<span class="brand-dot">.</span></a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#formation">Formation</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <p class="nav-foot mono" aria-hidden="true">Paris, France — disponible CDI · sept. 2026</p>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="accueil">
+    <div class="hero-chevrons" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <div class="hero-inner wrap">
+      <div class="hero-text">
+        <p class="pill rv"><span class="pulse" aria-hidden="true"></span>Disponible en CDI — septembre 2026</p>
+
+        <h1 class="rv rv-1">Manal<br>Maazouzi<span class="dot-red">.</span></h1>
+
+        <p class="role rv rv-2"><span class="chev" aria-hidden="true"></span>Acheteuse Indirect Corporate</p>
+
+        <p class="hero-desc rv rv-3">
+          Achats &amp; Systèmes d'Information&nbsp;: je pilote au quotidien RFI/RFP, négociations,
+          sourcing et contrats chez Crédit&nbsp;Agricole Personal Finance&nbsp;&amp;&nbsp;Mobility, en parallèle
+          du Master Manager du Numérique&nbsp;&amp;&nbsp;SI de Grenoble&nbsp;École&nbsp;de&nbsp;Management.
+        </p>
+
+        <div class="hero-actions rv rv-4">
+          <a href="#contact" class="btn btn-solid">Me contacter
+            <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/manal-maazouzi-7a76171b4" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">LinkedIn
+            <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+
+        <p class="hero-meta mono rv rv-4">
+          <svg class="ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Paris · Crédit Agricole PF&amp;M · GEM
+        </p>
+      </div>
+
+      <div class="hero-photo rv rv-2">
+        <figure class="photo-frame" id="photo-frame">
+          <img src="photo.jpg" alt="Portrait de Manal Maazouzi" width="360" height="450"
+               fetchpriority="high" decoding="async" id="photo">
+          <div class="monogram" aria-hidden="true">
+            <span>MM</span>
+            <small class="mono">ajoutez photo.jpg</small>
+          </div>
+        </figure>
+
+        <div class="photo-tags" aria-hidden="true">
+          <div class="badge badge-tr">
+            <span class="badge-k mono">En poste</span>
+            <span class="badge-v">Achats</span>
+          </div>
+          <div class="badge badge-bl">
+            <span class="badge-k mono">Master Numérique &amp; SI</span>
+            <span class="badge-v">Grenoble École de Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="scroll-hint mono" href="#profil" aria-hidden="true" tabindex="-1">Défiler<span class="line"></span></a>
+  </header>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="mq-group">
+        <span>Stratégie achat</span><i></i><span>RFI / RFP</span><i></i><span>Négociation</span><i></i>
+        <span>Sourcing</span><i></i><span>Ivalua</span><i></i><span>Pilotage de contrats</span><i></i>
+        <span>ATU</span><i></i><span>Onboarding fournisseurs</span><i></i><span>Supply chain</span><i></i>
+      </div>
+      <div class="mq-group mq-dup">
+        <span>Stratégie achat</span><i></i><span>RFI / RFP</span><i></i><span>Négociation</span><i></i>
+        <span>Sourcing</span><i></i><span>Ivalua</span><i></i><span>Pilotage de contrats</span><i></i>
+        <span>ATU</span><i></i><span>Onboarding fournisseurs</span><i></i><span>Supply chain</span><i></i>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===== PROFIL ===== -->
+    <section class="section" id="profil" aria-labelledby="profil-title">
+      <div class="wrap">
+        <p class="eyebrow mono rv">Profil</p>
+        <div class="split">
+          <div>
+            <h2 id="profil-title" class="rv rv-1">Acheteuse, côté chiffres<br><em>et</em> côté systèmes.</h2>
+            <p class="lead rv rv-2">
+              Chez Crédit Agricole Personal Finance &amp; Mobility, je définis les besoins avec les
+              prescripteurs, je construis la stratégie achat, puis je mène les appels d'offres et les
+              négociations jusqu'à la sélection finale — le tout outillé sur Ivalua. Ma spécialisation
+              en Systèmes d'Information me permet de parler aussi bien contrats que données.
+            </p>
+            <ul class="facts rv rv-3">
+              <li>Basée à Paris</li>
+              <li>Mobilité France</li>
+              <li>CDI dès septembre 2026</li>
+            </ul>
+          </div>
+
+          <div class="stats rv rv-2" id="stats">
+            <div class="stat">
+              <span class="stat-n"><span class="count" data-count="975">0</span></span>
+              <span class="stat-l mono">TOEIC — sur 990</span>
+            </div>
+            <div class="stat">
+              <span class="stat-n"><span class="count" data-count="4">0</span></span>
+              <span class="stat-l mono">langues parlées</span>
+            </div>
+            <div class="stat">
+              <span class="stat-n"><span class="count" data-count="3">0</span></span>
+              <span class="stat-l mono">certifications</span>
+            </div>
+            <div class="stat">
+              <span class="stat-n"><span class="count" data-count="2026">0</span></span>
+              <span class="stat-l mono">disponible en CDI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PARCOURS ===== -->
+    <section class="section section-alt" id="parcours" aria-labelledby="parcours-title">
+      <div class="wrap">
+        <p class="eyebrow mono rv">Parcours</p>
+        <h2 id="parcours-title" class="rv rv-1">Expériences professionnelles</h2>
+        <p class="sub rv rv-2">Achats corporate, conseil SI et communication — un fil conducteur&nbsp;: créer de la valeur fournisseurs.</p>
+
+        <div class="timeline">
+
+          <article class="tl-item current rv rv-2">
+            <div class="tl-when mono">
+              <time datetime="2024-09">Sept. 2024 — Présent</time>
+              <span class="tl-loc">Massy, Île-de-France</span>
+              <span class="tag-now">En poste</span>
+            </div>
+            <div class="tl-body">
+              <h3>Acheteuse Indirect Corporate</h3>
+              <p class="tl-org">Crédit Agricole Personal Finance &amp; Mobility</p>
+              <ul class="tl-list">
+                <li>Définition des besoins avec les prescripteurs et construction de la stratégie achat</li>
+                <li>Lancement et gestion des appels d'offres (RFI/RFP) et des ATU — prestations intellectuelles — via Ivalua</li>
+                <li>Analyse des offres commerciales, évaluation des fournisseurs et sélection finale</li>
+                <li>Négociations commerciales et mises en concurrence</li>
+                <li>Préparation des supports du Comité de Décision Achats</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tl-item rv rv-3">
+            <div class="tl-when mono">
+              <time datetime="2026-01">Janv. — Juin 2026</time>
+              <span class="tl-loc">Rennes, Bretagne</span>
+            </div>
+            <div class="tl-body">
+              <h3>Consultante SI — Projet PIE</h3>
+              <p class="tl-org">Le Trèfle 2.0 — association d'écoute en santé mentale</p>
+              <ul class="tl-list">
+                <li>Audit et cartographie du système d'information existant (MySQL, Office 365, Power BI)</li>
+                <li>Recommandations d'optimisation des flux et de sécurisation des données (RGPD)</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tl-item rv rv-4">
+            <div class="tl-when mono">
+              <time datetime="2024-02">Févr. — Mars 2024</time>
+              <span class="tl-loc">Brest, Bretagne</span>
+            </div>
+            <div class="tl-body">
+              <h3>Assistante Communication &amp; Développement Web</h3>
+              <p class="tl-org">BEaCHILD</p>
+              <ul class="tl-list">
+                <li>Mise à jour du site beachild.fr sous WordPress</li>
+                <li>Sourcing et commandes d'objets commerciaux</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FORMATION ===== -->
+    <section class="section" id="formation" aria-labelledby="formation-title">
+      <div class="wrap">
+        <p class="eyebrow mono rv">Formation</p>
+        <h2 id="formation-title" class="rv rv-1">Un cursus, deux compétences</h2>
+        <p class="sub rv rv-2">Du raisonnement des classes préparatoires à la double expertise Achats &amp; Systèmes d'Information.</p>
+
+        <div class="edu-grid">
+          <article class="card rv rv-2">
+            <span class="year-pill">Sept. 2024 — Présent</span>
+            <h3>Programme Grande École</h3>
+            <p class="card-org mono">Grenoble École de Management · Pantin</p>
+            <p>Spécialisation Management du Numérique &amp; Systèmes d'Information&nbsp;: gouvernance SI, data, négociation et management.</p>
+          </article>
+
+          <article class="card rv rv-3">
+            <span class="year-pill">Sept. 2023 — Juin 2024</span>
+            <h3>Licence AES</h3>
+            <p class="card-org mono">Université de Bretagne Occidentale · Brest</p>
+            <p>Administration Économique et Sociale, parcours Business Administration&nbsp;: économie, gestion et droit de l'entreprise.</p>
+          </article>
+
+          <article class="card rv rv-4">
+            <span class="year-pill">Sept. 2021 — Juin 2023</span>
+            <h3>Classes Préparatoires ECG</h3>
+            <p class="card-org mono">Lycée Moulay Ismaïl · Meknès, Maroc</p>
+            <p>Préparation aux concours des grandes écoles de commerce — option géopolitique et mathématiques approfondies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section class="section section-alt" id="certifications" aria-labelledby="certifs-title">
+      <div class="wrap">
+        <p class="eyebrow mono rv">Certifications</p>
+        <h2 id="certifs-title" class="rv rv-1">Compétences certifiées</h2>
+
+        <div class="certs rv rv-2">
+          <article class="cert">
+            <time class="cert-date mono" datetime="2025-06">Juin 2025</time>
+            <div class="cert-main">
+              <h3>Management Durable &amp; Reporting</h3>
+              <p>Università di Pavia — Summer School Erasmus</p>
+            </div>
+            <span class="cert-tag">International</span>
+          </article>
+
+          <article class="cert">
+            <time class="cert-date mono" datetime="2024-04">Avr. 2024</time>
+            <div class="cert-main">
+              <h3>Certification PIX</h3>
+              <p>Maîtrise du Pack Office — Word, Excel, PowerPoint</p>
+            </div>
+            <span class="cert-tag">Numérique</span>
+          </article>
+
+          <article class="cert">
+            <time class="cert-date mono" datetime="2024-02">Févr. 2024</time>
+            <div class="cert-main">
+              <h3>TOEIC — ETS Global Exam</h3>
+              <p>Anglais professionnel, niveau C1</p>
+            </div>
+            <span class="cert-tag cert-score">975 / 990</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMPÉTENCES ===== -->
+    <section class="section" id="competences" aria-labelledby="skills-title">
+      <div class="wrap">
+        <p class="eyebrow mono rv">Compétences</p>
+        <h2 id="skills-title" class="rv rv-1">Ce que j'apporte</h2>
+        <p class="sub rv rv-2">Le cœur de métier achats, renforcé par les outils, les langues et une vraie ouverture internationale.</p>
+
+        <div class="bento">
+
+          <article class="card b-7 rv rv-2">
+            <div class="card-head">
+              <span class="card-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="0.8" fill="currentColor"/></svg>
+              </span>
+              <h3>Achats — cœur de métier</h3>
+            </div>
+            <div class="chips">
+              <span class="chip">Stratégie achat</span><span class="chip">RFI / RFP</span>
+              <span class="chip">ATU</span><span class="chip">Négociation</span>
+              <span class="chip">Mise en concurrence</span><span class="chip">Analyse des offres</span>
+              <span class="chip">Pilotage de contrats</span><span class="chip">Onboarding fournisseurs</span>
+              <span class="chip">Comité de Décision Achats</span>
+            </div>
+          </article>
+
+          <article class="card b-5 rv rv-3">
+            <div class="card-head">
+              <span class="card-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13.5 12 18.5l9-5"/></svg>
+              </span>
+              <h3>Outils &amp; SI</h3>
+            </div>
+            <div class="chips">
+              <span class="chip">Ivalua (Easy)</span><span class="chip">Power BI</span>
+              <span class="chip">MySQL</span><span class="chip">Office 365</span>
+              <span class="chip">WordPress</span><span class="chip">Pack Office</span>
+              <span class="chip">RGPD</span>
+            </div>
+          </article>
+
+          <article class="card b-5 rv rv-2">
+            <div class="card-head">
+              <span class="card-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3.4 3.9 3.4 14.1 0 18-3.4-3.9-3.4-14.1 0-18z"/></svg>
+              </span>
+              <h3>Langues</h3>
+            </div>
+            <ul class="langs">
+              <li><span class="lang-n">Français</span><span class="lvl" aria-label="Courant"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="lang-t mono">Courant</span></li>
+              <li><span class="lang-n">Arabe</span><span class="lvl" aria-label="Courant"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="lang-t mono">Courant</span></li>
+              <li><span class="lang-n">Anglais</span><span class="lvl" aria-label="C1, TOEIC 975 sur 990"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="lang-t mono">C1 · TOEIC 975</span></li>
+              <li><span class="lang-n">Espagnol</span><span class="lvl" aria-label="Intermédiaire"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span><span class="lang-t mono">Intermédiaire</span></li>
+            </ul>
+          </article>
+
+          <article class="card b-4 rv rv-3">
+            <div class="card-head">
+              <span class="card-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M2.5 11.5 21 3l-8.5 18.5-2.5-8-7.5-2z"/><path d="M21 3 10 13"/></svg>
+              </span>
+              <h3>International</h3>
+            </div>
+            <p class="card-text">Un parcours entre la France et le Maroc, un semestre Erasmus à Pavie&nbsp;: l'habitude de négocier dans des environnements multiculturels.</p>
+          </article>
+
+          <article class="card b-3 rv rv-4">
+            <div class="card-head">
+              <span class="card-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/></svg>
+              </span>
+              <h3>Centres d'intérêt</h3>
+            </div>
+            <div class="chips">
+              <span class="chip">Voyages</span>
+              <span class="chip">Apprentissage des langues</span>
+              <span class="chip">Échanges Erasmus</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="contact-card rv">
+          <span class="tick" aria-hidden="true"></span>
+          <div class="grain" aria-hidden="true"></div>
+
+          <p class="eyebrow mono eyebrow-light">Contact</p>
+          <h2 id="contact-title">Travaillons ensemble<span class="dot-red">.</span></h2>
+          <p class="contact-sub">
+            Disponible pour un CDI à partir de septembre 2026 — achats, sourcing, supply chain.
+            Basée à Paris, mobile partout en France.
+          </p>
+
+          <div class="contact-actions">
+            <button class="btn btn-light" id="copy-email" type="button">
+              <svg class="ic ic-copy" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"/></svg>
+              <svg class="ic ic-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
+              <span id="email-text">Copier l'email</span>
+            </button>
+
+            <a href="https://www.linkedin.com/in/manal-maazouzi-7a76171b4" target="_blank" rel="noopener noreferrer" class="btn btn-ghost-light">
+              <svg class="ic" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S.02 4.88.02 3.5 1.13 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v15h-4V8zm7.5 0h3.8v2.1h.06c.53-1 1.83-2.1 3.77-2.1 4.03 0 4.77 2.65 4.77 6.1V23h-4v-7.1c0-1.7-.03-3.9-2.37-3.9-2.37 0-2.73 1.85-2.73 3.78V23H8V8z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+
+          <p class="contact-note mono">L'adresse se copie en un clic — à très vite.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap foot-inner">
+      <div class="foot-id">
+        <span class="foot-name">Manal Maazouzi</span>
+        <span class="foot-role mono">Acheteuse Indirect Corporate · Paris</span>
+      </div>
+      <div class="foot-side">
+        <a href="https://www.linkedin.com/in/manal-maazouzi-7a76171b4" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#accueil" class="foot-top">Haut de page ↑</a>
+        <span class="mono">© <span id="year">2026</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
